@@ -62,3 +62,11 @@ p{
 #case-studies{
     background: white;
 }
+
+/*Footer*/
+.my-footer{
+    background: #FFF9EF;
+}
+.footer-content{
+    margin: 3% 1%;
+}
