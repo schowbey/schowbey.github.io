@@ -1,6 +1,9 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    background: #FFF9EF;
+    background: white; /*FFF9EF*/
+}
+.container-fluid{
+    padding: 3% 10%;
 }
 h1{
     font-weight: bold;
@@ -9,17 +12,28 @@ h1{
 h3{
     line-height: 1.5;
 }
+h4{
+    margin: 4.5rem 0 0 0;
+}
 p{
     color: #8f8f8f;
 }
-.container-fluid{
-    padding: 3% 10%;
-}
+
 
 /*Navigation Bar*/
-.navbar{
-    padding: 0 0 4.5rem;
+.profile{
+    text-align: center;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    width: 20rem;
+    height: 19rem;
+    border-radius: 50%;
+    margin: 4rem 0 0 0;
 }
+.header{
+    background-color: #FFF9EF;
+}
+
 .navbar-brand{
     font-family: 'Ubuntu';
     font-size: 2.5rem;
@@ -31,6 +45,17 @@ p{
 .nav-link{
     font-size: 1.2rem;
     font-family: 'Montserrat', san-serif;
+}
+
+/*About Me*/
+.skills{
+    background: white;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: .5% 1%;
+    font-size: 1rem;
+    border-radius: .5rem;
+    margin: .25%;
 }
 
 /*Case Studies*/
