@@ -32,6 +32,7 @@ p{
 }
 .header{
     background-color: #FFF9EF;
+    padding: 1% 10%;
 }
 
 .navbar-brand{
@@ -47,6 +48,11 @@ p{
     font-family: 'Montserrat', san-serif;
 }
 
+/*Home Page*/
+.card-title{
+    font-size: 1.8rem;
+}
+
 /*About Me*/
 .skills{
     background: white;
@@ -59,12 +65,19 @@ p{
 }
 .about{
     color: #747474;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 /*Case Studies*/
 #case-studies{
     background: white;
+}
+.project{
+    background: white;
+}
+.back-arrow{
+    color: black;
+    font-size: 3rem;
 }
 
 /*Footer*/
@@ -75,20 +88,17 @@ p{
 .my-footer p{
     font-size: 18px;
 }
-  .social-bar a {
+.social-bar a {
     color: black;
     font-size: 26px;
     padding: 0 .5rem 0 0;
-
-  }
-  
-  .social-bar i {
+}  
+.social-bar i {
     transition: color 0.3s ease-in-out;
-  }
-  
-  .social-bar a:hover i {
+}
+.social-bar a:hover i {
     color: #84a59d; /* Change color on hover */
-  }
+}
 
   /* Code Graveyard
 
