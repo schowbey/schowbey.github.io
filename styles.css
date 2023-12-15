@@ -51,6 +51,18 @@ p{
 /*Home Page*/
 .card-title{
     font-size: 1.8rem;
+    color: black;
+}
+.card-link:hover h5{
+    color: #84a59d; 
+}
+.home-skills{
+    color: black;
+    font-weight: 550;
+    padding: .45% .5%;
+    font-size: .8rem;
+    border-radius: .6rem;
+    margin: .45%;
 }
 
 /*About Me*/
@@ -67,6 +79,10 @@ p{
     color: #747474;
     font-size: 1.2rem;
 }
+.certs{
+    width: 6rem;
+    margin: 1% 3%;
+}
 
 /*Case Studies*/
 #case-studies{
@@ -78,6 +94,10 @@ p{
 .back-arrow{
     color: black;
     font-size: 3rem;
+    margin: 0% 0% 0% 5%;
+}
+.back-arrow:hover{
+    color: #84a59d; 
 }
 
 /*Footer*/
