@@ -25,10 +25,8 @@ p{
     text-align: center;
     justify-content: center; /* Center the content horizontally */
     align-items: center; /* Center the content vertically */
-    width: 20rem;
-    height: 19rem;
-    border-radius: 50%;
     margin: 2rem 0 1rem 0;
+    width: 20rem;
 }
 .header{
     background-color: #FFF9EF;
@@ -53,13 +51,17 @@ p{
     font-size: 1.8rem;
     color: black;
 }
+.card{
+    background: #FFF9EF;
+    border-radius: 1%;
+}
 .card-link:hover h5{
     color: #84a59d; 
 }
 .home-skills{
     color: black;
     font-weight: 550;
-    padding: .45% .5%;
+    padding: .5% 1%;
     font-size: .8rem;
     border-radius: .6rem;
     margin: .45%;
@@ -106,7 +108,6 @@ p{
 /*Footer*/
 .my-footer{
     background: #FFF9EF;
-    
 }
 .my-footer p{
     font-size: 18px;
