@@ -1,0 +1,32 @@
+.home-content {
+    padding: 3%;
+}
+.container {
+    display: flex;
+}
+.intro {
+    flex: 1;
+    display: flex;
+    padding-left: 3%;
+    flex-direction: column; 
+    justify-content: center;
+}
+.homepage-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        width: 50%;
+    }
+}
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+.name {
+    color: #84a59d;
+}

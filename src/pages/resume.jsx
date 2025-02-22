@@ -4,7 +4,7 @@ function Resume() {
   return (
     <div>
       <iframe
-        src="/schowbey-resume.pdf"
+        src="./schowbey-resume.pdf"
         title="Resume"
         width="100%"
         height="1000px"

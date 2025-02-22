@@ -1,0 +1,46 @@
+p {
+	font-size: 1.1em;
+	letter-spacing: 0.05em; 
+}
+
+.page-content {
+	padding: 3% 5%;
+}
+
+.about-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+}
+
+.about-main {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+	.about-subtitle {
+		padding-top: 20px !important;
+	}
+}
+
+@media (max-width: 1000px) {
+	.about-container {
+		padding-top: 60px;
+	}	
+}
+
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.skill-tile {
+	font-size: 0.95em;
+	font-weight: semi-bold;
+	margin: 1%;
+	padding: 0.5% 1%;
+	border-radius: 10px;
+}
