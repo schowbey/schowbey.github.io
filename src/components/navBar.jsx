@@ -19,7 +19,10 @@ const NavBar = (props) => {
 								<Link to="/projects">Projects</Link>
 							</li>
 							<li className={active === "resume" ? "nav-item active" : "nav-item"}>
-								<Link to="/resume">Resume</Link>
+								{/* <Link to="/resume">Resume</Link> */}
+								<a href="./portfolio-react/schowbey-resume.pdf" target="_blank" rel="noopener noreferrer">
+									Resume
+								</a>
 							</li>
 							<li className={active === "about" ? "nav-item active" : "nav-item"}>
 								<Link to="/about">About</Link>

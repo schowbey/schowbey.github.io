@@ -3,8 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import Homepage from "./pages/homepage";
 import About from "./pages/about";
 import Projects from "./pages/projects";
-import Resume from "./pages/resume";
 import Footer from "./components/footer";
+import NotFound from "./pages/notFound";
 import "./App.css";
   
 function App() {
@@ -14,8 +14,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/resume" element={<Resume />} />
           <Route path="/about" element={<About />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>  
       <Footer />
