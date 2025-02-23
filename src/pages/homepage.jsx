@@ -17,7 +17,7 @@ const Homepage = () => {
                         </p>
                     </div>
                     <div className="homepage-image">
-                        <img src="/portfolio-react/prof-photo.png" alt="my professional portrait"/>
+                        <img src="/prof-photo.png" alt="my professional portrait"/>
                     </div>   
                 </div> 
             </div>
