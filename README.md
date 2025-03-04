@@ -2,4 +2,6 @@
 
 Last Updated: February 2025
 
-Developed by Shilpa Chowbey.
+access at this URL: https://schowbey.github.io/
+
+designed & developed by Shilpa Chowbey.
