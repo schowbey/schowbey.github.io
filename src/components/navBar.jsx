@@ -18,15 +18,15 @@ const NavBar = (props) => {
 							<li className={ active === "projects" ? "nav-item active" : "nav-item"}>
 								<Link to="/projects">Projects</Link>
 							</li>
+							<li className={active === "about" ? "nav-item active" : "nav-item"}>
+								<Link to="/about">About</Link>
+							</li>
 							<li className={active === "resume" ? "nav-item active" : "nav-item"}>
 								{/* <Link to="/resume">Resume</Link> */}
 								<a href="./schowbey-resume.pdf" target="_blank" rel="noopener noreferrer">
 									Resume
 								</a>
-							</li>
-							<li className={active === "about" ? "nav-item active" : "nav-item"}>
-								<Link to="/about">About</Link>
-							</li>
+							</li>	
 						</ul>
 					</div>
 				</nav>

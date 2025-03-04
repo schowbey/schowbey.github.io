@@ -3,4 +3,14 @@
 	flex-direction: column;
 	height: 100%;
 	margin: 0;
+	padding: 3% 7%;
+}
+.container {
+	display: flex;
+}
+.overview {
+	flex: 1;
+}
+.background {
+	flex: 2;
 }
