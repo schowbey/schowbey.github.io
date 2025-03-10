@@ -14,3 +14,16 @@
 .background {
 	flex: 2;
 }
+img {
+	width: 60%;
+}
+.figures {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	p {
+		font-size: .95rem;
+	}
+}

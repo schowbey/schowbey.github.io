@@ -4,7 +4,7 @@ html, body, #root, .app-container {
   flex-direction: column;
 }
 .App {
-  min-height: 95vh;
+  min-height: 100vh;
 }
 
 body {
@@ -18,6 +18,6 @@ footer {
 .main-content {
   background-color: #f3f6f1;
   margin: 0% 5%;
-  height: 100%;
   flex: 1;
+  flex-grow: 1;
 }
