@@ -13,7 +13,7 @@ const Homepage = () => {
                         <h2>Hello, </h2>
                         <h1>My name is <span style={{color:'#84a59d'}}>Shilpa Chowbey</span>.</h1>
                         <p>
-                            I am currently a 4th year at UC San Diego, studying Cognitive and Computer science.
+                            I am currently a Masters of Engineering (MEng) student at UCLA.
                         </p>
                     </div>
                     <div className="homepage-image">

@@ -61,37 +61,37 @@ const ProductEngineering = () => {
                 While my team members worked on the hardware, I worked on the software. One user concern that was apparent from research was privacy concerns about the sleep data. Thus, I built a user authorization system on top of a database to ensure that only the user could access their data. Once the user created an account and logged in, their session expired after 15 minutes. As you can see in Figure 1, I created a mockup of the home page in Figma.
             </p>
             <div className = "figures">
-                <img src = "/case-studies/figma-140b.jpg" alt = "figma"/>
+                <img src = "/ece140/figma-140b.jpg" alt = "figma"/>
                 <p>Figure 1: Figma Mockup</p>
             </div>
             <p>
                 Then, I replicated it almost exactly in HTML, CSS, and JavaScript as seen in Figure 2. I also made a user flow map to understand the different ways a user could interact with my website. This allowed to prevent erroneous actions and make sure I had implemented all the features we wanted.
             </p>
             <div className = "figures">
-                <img src = "/case-studies/actual-website.jpg" alt = "home page"/>
+                <img src = "/ece140/actual-website.jpg" alt = "home page"/>
                 <p>Figure 2: Actual Home Page</p>
-                <img src = "/case-studies/journey-map.jpg" alt = "user map"/>
+                <img src = "/ece140/journey-map.jpg" alt = "user map"/>
                 <p>Figure 3: User Journey Map</p>
             </div>
             <p>
                 Utilizing my Cognitive Science background, I chose the pressure sensor to provide us with interesting analytics. Knowing that the body undergoes atonia (stillness) during the REM sleep stage, I could determine the number of sleep cycles a user went through by analyzing periods of stillness and movement. The pressure sensor data was sent to the app via MQTT, a subscribe/publish protocol. By subscribing to the pressure data 'channel', we could fetch the data and analyze it. When the user opted out of data collection, the data would not be published at all. In our MVP, I graphed and analyzed the data using JavaScript libraries, but in a better iteration, I could create an algorithm to determine the number of sleep cycles. Figure 4 shows a graph of a user's sleep data. When users chose to opt out of data collection, the data would not be published at all.
             </p>
             <div className = "figures">
-                <img src = "/case-studies/sleep-graph.jpg" alt = "sleep graph"/>
+                <img src = "/ece140/sleep-graph.jpg" alt = "sleep graph"/>
                 <p>Figure 4: Sleep Data Graph</p>
             </div>
 
 
             <h2 style = {{fontWeight: "700"}}>The Final Pitch</h2>
             <div className = "figures">
-                <img src = "/case-studies/product-poster.png" alt = "product poster"/>
+                <img src = "/ece140/product-poster.png" alt = "product poster"/>
                 <p>Figure 5: Product Poster</p>
             </div>
             <p>
                 Once we integrated the software with hardware, we had to write up a full proposal and prepare to pitch the project. I created our brand (SlumberSmart) and designed a logo. I also created a poster (Figure 5) that included our market research, user personas, features, and designs of our product. We presented to a panel of judges who were impressed with our product and the work we had done. Figure 6 shows our final set up, including the hardware-software integration
             </p>
             <div className = "figures">
-                <img src = "/case-studies/final-integration.jpg" alt = "final presentation"/>
+                <img src = "/ece140/final-integration.jpg" alt = "final presentation"/>
                 <p>Figure 6: Final Presentation</p>
             </div>
 
