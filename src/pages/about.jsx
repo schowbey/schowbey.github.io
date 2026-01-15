@@ -10,7 +10,6 @@ const About = () => {
 		<React.Fragment>
 			<div className="page-content">
 				<NavBar active="about" />
-				<div className="content-wrapper">
 					<div className="about-container">
 						<h1><b>About Me</b></h1>
 						<div className="about-main">
@@ -60,7 +59,6 @@ const About = () => {
 						</div>
 					</div>
 				</div>
-			</div>
 		</React.Fragment>
 	);
 };
